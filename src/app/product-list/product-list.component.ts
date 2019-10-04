@@ -9,9 +9,25 @@ import { products } from '../products';
 })
 export class ProductListComponent {
 
-   products = products;
+ 
 
-
+  products = [
+    {
+      name : "Phone XL",
+      price : 8000,
+      description : "A large phone with one of the best screens"
+    },
+    {
+      name : "Phone Mini",
+      price : 534,
+      description : "A great phone with one of the best camera"
+    },
+    {
+      name : "Phone Standard",
+      price : 343,
+      description : ""
+    }
+  ];
   
 
   share() {

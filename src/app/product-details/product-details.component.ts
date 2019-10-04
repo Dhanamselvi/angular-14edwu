@@ -10,9 +10,7 @@ import { products } from '../products';
 export class ProductDetailsComponent implements OnInit {
 
   product;
-
- 
-
+  
   constructor(
     private route: ActivatedRoute,
   ) { }
