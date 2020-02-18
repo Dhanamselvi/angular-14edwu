@@ -8,9 +8,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+/* body {
   margin: 0;
-}
+} */
 
 .container {
   display: flex;
