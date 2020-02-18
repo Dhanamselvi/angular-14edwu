@@ -9,6 +9,8 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertComponent } from './product-alert/product-alert.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { EmployeeListComponent } from './employee-list/employee-list.component';
+import { EmployeeListPipe } from './employee-list/employee-list.pipe';
+import { EmployeeCountComponent } from './employee-list/employee-count/employee-count.component';
 
 @NgModule({
   imports: [
@@ -25,7 +27,9 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
     ProductListComponent,
     ProductAlertComponent,
     ProductDetailsComponent,
-    EmployeeListComponent
+    EmployeeListComponent,
+    EmployeeListPipe,
+    EmployeeCountComponent
   ],
   bootstrap: [ AppComponent ]
 })
